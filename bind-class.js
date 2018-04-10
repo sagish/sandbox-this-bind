@@ -26,7 +26,7 @@ class Cat extends Animal {
   }
 }
 
-(new Cat).makeSound();
-(new Dog).makeSound();
-(new Cat).makeSound.call(new Dog);
-(new Cat).makeSound.bind(Cat).call(new Dog);
+// (new Cat).makeSound();
+// (new Dog).makeSound();
+// (new Cat).makeSound.call(new Dog);
+// (new Cat).makeSound.bind(Cat).call(new Dog);
